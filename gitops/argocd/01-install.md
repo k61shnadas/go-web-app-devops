@@ -18,7 +18,7 @@ kubectl patch svc argocd-server -n argocd -p '{"spec": {"type": "LoadBalancer"}}
 kubectl patch svc argocd-server -n argocd -p '{\"spec\": {\"type\": \"LoadBalancer\"}}'
 ```
 
-## Get the Loadbalancer service IP
+## Get the Loadbalancer service IPP
 
 ```bash
 kubectl get svc argocd-server -n argocd
